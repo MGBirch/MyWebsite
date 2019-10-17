@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Bevan&display=swap');
+body {
+  background-color: #3D3D3D;
+  color: white;
+  text-align: center;
+  /*font-family: 'Bevan', cursive;
+  */
+  font-family: sans-serif;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Profile{
+  align-items: center;
+}
+
+.navbar{
+  min-height: 10vh;
+  font-size: 20px;
+  align-items: center;
+}
+
+.navbar > ul > li{
+  display: inline-block;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  display: block;
+  padding: 50px;
+}
+
+a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p{
+  text-align: center;
+}
+
+#aboutText {
+  width: 70%;
+}
+
+@media screen and (min-width: 576px) {
+  #aboutText {
+    width: 90%;
+  }
+}
