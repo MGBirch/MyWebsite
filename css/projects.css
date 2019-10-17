@@ -21,7 +21,6 @@ body {
 .navbar{
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
-  text-align: center;
 }
 
 .navbar-expand-lg{
@@ -32,28 +31,6 @@ ul{
   width: 100%
 }
 
-p{
-  padding-left: 15%;
-  padding-right: 15%;
+.work{
+  background-color: white;
 }
-
-.picture{
-  text-align: center;
-}
-
-.Profile{
-  align-items: center;
-  height: 40%;
-}
-
-.para{
-  text-align: center;
-}
-
-.header{
-  text-align: center;
-  height: 10%;
-}
-
-
-/*@media screen and()*/
